@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -12,14 +12,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=IBM+Plex+Serif:ital,wght@1,600&display=swap");
+.Heading {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 25pt;
+  color: tan;
+}
+.d-block {
+  height: 450px !important;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.cc1 {
+  color: rgb(238, 127, 173);
+  font-weight: bolder;
+  font-size: 32pt;
+}
+.cc2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 25pt;
+}
+nav {
+  font-family: "Arvo", serif;
+  font-size: 15pt;
+  color: blanchedalmond;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -27,7 +48,26 @@
 .App-link {
   color: #61dafb;
 }
-
+.errorLoginForm {
+  color: red;
+}
+.labelLoginForm {
+  text-align: center;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  color: #2e0e79d5;
+  font-weight: bold;
+  font-size: 14px;
+}
+.labelRegisterForm {
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  color: #2e0e79d5;
+  font-weight: bold;
+  font-size: 14px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +75,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+button[type="submit"],
+input[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #bf1650;
+}
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+.formLogin {
+  font-family: "Arvo", serif;
+  background: #f5dd42;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.formRegister {
+  font-family: "Arvo", serif;
+  width: 700px;
+  background: #f5dd42;
+  margin: 0 auto;
+  padding: 5px;
 }
