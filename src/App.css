@@ -1,5 +1,9 @@
+body {
+  height: 100%;
+}
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -43,6 +47,7 @@ nav {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 100%;
 }
 
 .App-link {
@@ -124,4 +129,63 @@ input[type="submit"]:active {
   background: #f5dd42;
   margin: 0 auto;
   padding: 5px;
+}
+.dashboardLI {
+  list-style-type: none;
+  color: #ddd45a;
+}
+.dashboardLI:hover {
+  color: yellow;
+  background-color: darkslategrey;
+}
+.dashboardUL {
+  padding-top: 10px;
+  text-align: left;
+  height: 100%;
+}
+.DashboardOuterDiv {
+  justify-content: left;
+  height: 100%;
+  min-height: 100%;
+}
+.DashboardPanel {
+  height: 100%;
+  display: flex;
+}
+.DashboardLeftDiv {
+  text-align: left;
+  height: 100vmax;
+}
+.iconCourse {
+  width: 50px;
+  height: 50px;
+}
+.DashboardRightDiv {
+  font-family: "IBM Plex Serif", serif;
+  color: #ddd45a;
+}
+.imageCourse {
+  width: auto;
+}
+.courseDescription {
+  color: rgb(238, 127, 173);
+  text-align: left;
+}
+.ChapterContent {
+  width: 70%;
+  height: 50%;
+  display: inline-block;
+}
+.ChapterIFrameContent {
+  width: 100%;
+  height: 80%;
+}
+.IBMPlex {
+  font-family: "IBM Plex Serif", serif;
+}
+.tutotInvite {
+  color: rgb(214, 144, 15);
+}
+.navbar {
+  width: 100%;
 }
