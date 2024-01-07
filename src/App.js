@@ -23,7 +23,7 @@ import Login from "./components/login.js";
 import Home from "./components/home.js";
 import Instructor from "./components/instructor.js";
 export const api = axios.create({
-  baseURL: "https://lms-backend-production-af6f.up.railway.app/",
+  baseURL: "https://lms-backend-ojcr.onrender.com/",
   xsrfCookieName: "XSRF-TOKEN",
   xsrfHeaderName: "X-XSRF-TOKEN",
 });
